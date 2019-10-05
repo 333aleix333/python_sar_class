@@ -3,3 +3,4 @@
 def int_sum(a: int, b: int) -> int:
   for i in range(a):
     b += 1
+  return b
