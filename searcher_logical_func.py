@@ -1,4 +1,12 @@
 def AND(list1, list2):
+	'''Returns a list with the tokens that appear in both arguments
+
+        :param List list1: First list
+        :param List list2: Second list
+
+        :returns: The result of applying the AND operation
+        :rtype: List
+        '''
 	res = []
 	i = 0
 	j = 0
@@ -14,6 +22,14 @@ def AND(list1, list2):
 	return res
 
 def OR(xs, ys):
+	'''Returns a list with the tokens that appear in one or both arguments
+
+        :param List list1: First list
+        :param List list2: Second list
+
+        :returns: The result of applying the OR operation
+        :rtype: List
+        '''
 	res = []
 	i = 0
 	j = 0
@@ -39,6 +55,14 @@ def OR(xs, ys):
 	return res
 
 def SUB(xs, ys):
+	'''Returns a list with the tokens that appear in one argument but not in the other
+
+        :param List list1: First list
+        :param List list2: Second list
+
+        :returns: The result of applying the SUB operation
+        :rtype: List
+        '''
 	res = []
 	i = 0
 	j = 0
